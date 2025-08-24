@@ -37,6 +37,15 @@ Stops updating the object’s position.
 
 ---
 
+⚠️ **Important Usage Note**  
+All parts used with **Object-to-Camera** must be:  
+- **Anchored** (so they don’t fall due to physics)  
+- **CanCollide = false** (so they don’t block or interfere with the player or environment)  
+
+This ensures the module works as intended and keeps objects rendering smoothly in front of the camera.
+
+---
+
 ## 📘 Examples
 
 ### Place a Part in Front of the Camera
