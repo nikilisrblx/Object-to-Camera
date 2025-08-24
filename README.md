@@ -50,7 +50,7 @@ This ensures the module works as intended and keeps objects rendering smoothly i
 
 ### Place a Part in Front of the Camera
 ```lua
-local CameraObject = require(path.to.CameraObject)
+local CameraObject = require(WhereYouPlacedIt) -- make sure it's a module too!
 
 local part = Instance.new("Part")
 part.Size = Vector3.new(2, 2, 2)
