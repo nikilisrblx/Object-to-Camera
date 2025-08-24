@@ -58,6 +58,7 @@ part.Anchored = true
 part.Parent = workspace
 
 local camObj = CameraObject.Init(part)
+-- You can change the position of the part by adding offset using camObj.__Offset.Value
 camObj:Activate()
 
 task.wait(5)
